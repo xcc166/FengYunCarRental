@@ -1,0 +1,60 @@
+.cars-swiper-wrap {
+  position: relative;
+  padding: 0 155px;
+}
+.cars-swiper-wrap .swiper-container {
+  overflow: inherit;
+}
+.cars-swiper-wrap .swiper-button-prev,
+.cars-swiper-wrap .swiper-button-next {
+  top: 50%;
+  width: 60px;
+  height: 100px;
+  margin-top: -50px;
+  border-radius: 100px;
+  background-color: #fff;
+  outline: none;
+  box-shadow: 0 0 18px 0 rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease 0s;
+}
+.cars-swiper-wrap .swiper-button-prev.swiper-button-disabled,
+.cars-swiper-wrap .swiper-button-next.swiper-button-disabled {
+  opacity: 1;
+}
+.cars-swiper-wrap .swiper-button-prev:hover,
+.cars-swiper-wrap .swiper-button-next:hover {
+  background-color: #34393f;
+}
+.cars-swiper-wrap .swiper-button-prev:hover:after,
+.cars-swiper-wrap .swiper-button-next:hover:after {
+  border-top: 3px solid #b5dcf3;
+}
+.cars-swiper-wrap .swiper-button-prev:after,
+.cars-swiper-wrap .swiper-button-next:after {
+  content: "";
+  width: 14px;
+  height: 14px;
+  border-top: 3px solid #000;
+}
+.cars-swiper-wrap .swiper-button-prev {
+  left: 53px;
+}
+.cars-swiper-wrap .swiper-button-prev:after {
+  border-left: 3px solid #000;
+  margin-left: 5px;
+  transform: rotate(-45deg);
+}
+.cars-swiper-wrap .swiper-button-prev:hover:after {
+  border-left: 3px solid #b5dcf3;
+}
+.cars-swiper-wrap .swiper-button-next {
+  right: 53px;
+}
+.cars-swiper-wrap .swiper-button-next:after {
+  border-right: 3px solid #000;
+  margin-right: 5px;
+  transform: rotate(45deg);
+}
+.cars-swiper-wrap .swiper-button-next:hover:after {
+  border-right: 3px solid #b5dcf3;
+}

@@ -1,0 +1,252 @@
+.cars-item {
+  height: 257px;
+  margin: auto;
+  padding: 30px 30px 0;
+  background-color: #fff;
+  border-radius: 24px;
+  box-shadow: 0 0 18px 0 rgba(0, 0, 0, 0.2);
+  box-sizing: border-box;
+}
+.cars-item header:after {
+  clear: both;
+  content: ".";
+  display: block;
+  height: 0;
+  line-height: 0;
+  overflow: hidden;
+}
+.cars-logo {
+  float: left;
+}
+.cars-logo img {
+  display: inline-block;
+  height: 34px;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+.cars-logo .name {
+  font-size: 16px;
+}
+.cars-attr {
+  float: right;
+  line-height: 34px;
+  opacity: 0.5;
+}
+.cars-content {
+  position: relative;
+  margin: 11px 0 7px;
+}
+.cars-content:after {
+  clear: both;
+  content: ".";
+  display: block;
+  height: 0;
+  line-height: 0;
+  overflow: hidden;
+}
+.cars-content img {
+  float: right;
+  height: 120px;
+  width: 220px;
+}
+.cars-content .info {
+  display: flex;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+}
+.cars-content .info .cars-number {
+  font-size: 18px;
+}
+.cars-content .info .cars-electric {
+  padding-top: 10px;
+  display: inline-block;
+}
+.cars-content .info .cars-electric li {
+  display: inline-block;
+  width: 7px;
+  height: 24px;
+  margin-right: 3px;
+  background-color: #e1e1e1;
+  border-radius: 100px;
+}
+.cars-content .info .cars-electric li.active {
+  background: linear-gradient(#17a8fa, #108dd9);
+}
+.distance {
+  margin-left: 5px;
+  display: inline-block;
+}
+.distance strong {
+  margin: 0 3px;
+  font-size: 22px;
+}
+.distance sub {
+  position: relative;
+  top: -2px;
+}
+.distance sub:first-of-type {
+  opacity: 0.6;
+}
+.parking-link {
+  position: relative;
+  display: block;
+  border-top: 1px solid #e1e1e1;
+  color: #34393f;
+  opacity: 0.8;
+  line-height: 53px;
+}
+.parking-link:after {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 50%;
+  width: 8px;
+  height: 8px;
+  margin-top: -8px;
+  border-top: 1px solid #d6d7d9;
+  border-right: 1px solid #d6d7d9;
+  transform: rotate(45deg);
+}
+.cars-detailed {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 0;
+  transition: all 0.3s ease 0s;
+  padding-top: 0;
+}
+.cars-detailed .scroll {
+  height: 100%;
+  overflow-y: auto;
+}
+.cars-detailed .select-car-btn {
+  display: block;
+  width: 240px;
+  height: 84px;
+  margin: 0 17px;
+  border-radius: 100px;
+  line-height: 84px;
+  text-align: center;
+  color: #fff;
+  font-size: 26px;
+  font-weight: 300;
+  background-color: #34393f;
+}
+.cars-detailed .column {
+  position: relative;
+  padding: 26px 0 20px;
+  margin-bottom: 19px;
+  font-size: 20px;
+  color: #34393f;
+  border-bottom: 1px solid #e1e1e1;
+}
+.cars-detailed .column .close {
+  position: absolute;
+  right: 0;
+  top: 25px;
+  display: block;
+  width: 26px;
+  height: 26px;
+  cursor: pointer;
+}
+.cars-detailed .column .close:before,
+.cars-detailed .column .close:after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  height: 20px;
+  margin-left: -1px;
+  margin-top: -10px;
+  border-left: 2px solid #999c9f;
+}
+.cars-detailed .column .close:before {
+  transform: rotate(45deg);
+}
+.cars-detailed .column .close:after {
+  transform: rotate(-45deg);
+}
+.cars-detailed .cars-electric-box {
+  padding: 15px;
+  margin-top: 17px;
+  border-radius: 100px;
+  background-color: #fff;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+}
+.cars-detailed .cars-electric-box .e-bg {
+  display: block;
+  height: 8px;
+  background-color: #e1e1e1;
+  border-radius: 100px;
+}
+.cars-detailed .cars-electric-box .e-high {
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-color: #0f9cee;
+  height: 100%;
+  border-radius: 100px;
+}
+.cars-detailed .info {
+  margin: 32px 0 28px;
+}
+.cars-detailed .select-car-btn {
+  position: absolute;
+  left: 50%;
+  margin-left: -120px;
+  bottom: -42px;
+}
+.cars-type-list li {
+  height: 43px;
+  padding: 0 17px 0 20px;
+  margin-bottom: 15px;
+  background-color: #f3f3f3;
+  border-color: #f3f3f3;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 10px;
+  font-size: 16px;
+  line-height: 43px;
+}
+.cars-type-list li.current {
+  border-color: #0f9cee;
+}
+.cars-type-list .name {
+  float: left;
+}
+.cars-type-list .price {
+  float: right;
+}
+.clause-dec:after {
+  clear: both;
+  content: ".";
+  display: block;
+  height: 0;
+  line-height: 0;
+  overflow: hidden;
+}
+.clause-dec i {
+  float: right;
+  width: 20px;
+  height: 20px;
+  border-radius: 100px;
+  background-color: #cccccc;
+}
+.clause-dec i.current {
+  background-color: #34393f;
+}
+.clause-dec i:before {
+  content: "";
+  display: block;
+  width: 8px;
+  height: 4px;
+  margin: 6px 0 0 5px;
+  border-left: 2px solid #fff;
+  border-bottom: 2px solid #fff;
+  transform: rotate(-45deg);
+}

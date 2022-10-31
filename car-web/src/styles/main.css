@@ -1,0 +1,254 @@
+@import "normalize.css";
+i[class^="icon"] {
+  display: inline-block;
+  background-repeat: no-repeat;
+}
+.icon-w-44 {
+  width: 44px;
+  height: 44px;
+}
+.icon-help {
+  background-image: url(../assets/images/icon/icon-help.png);
+}
+.icon-search {
+  background-image: url(../assets/images/icon/icon-search.png);
+}
+.icon-location {
+  background-image: url(../assets/images/icon/icon-location.png);
+}
+.icon-user {
+  background-image: url(../assets/images/icon/icon-user.png);
+}
+.icon-user-link-1 {
+  background-image: url(../assets/images/icon/icon-router-link-001.png);
+}
+.icon-user-link-2 {
+  background-image: url(../assets/images/icon/icon-router-link-002.png);
+}
+.icon-user-link-3 {
+  background-image: url(../assets/images/icon/icon-router-link-003.png);
+}
+.icon-user-link-4 {
+  background-image: url(../assets/images/icon/icon-router-link-004.png);
+}
+.icon-user-link-5 {
+  background-image: url(../assets/images/icon/icon-router-link-005.png);
+}
+.icon-success {
+  background-image: url(../assets/images/success.png);
+}
+.icon-fail {
+  background-image: url(../assets/images/fail.png);
+}
+.cars-form-ui .el-input__inner {
+  background-color: #202429 !important;
+  border: 1px solid #202429 !important;
+  color: #fff !important;
+}
+.cars-form-ui .el-input__inner::-webkit-input-placeholder {
+  color: rgba(255, 255, 255, 0.2);
+}
+.cars-form-ui .el-input__inner::-moz-placeholder {
+  color: rgba(255, 255, 255, 0.2);
+}
+.cars-form-ui .el-input__inner:-ms-input-placeholder {
+  color: rgba(255, 255, 255, 0.2);
+}
+.cars-form-ui .el-input__inner:-moz-placeholder {
+  color: rgba(255, 255, 255, 0.2);
+}
+.cars-form-ui .el-form-item {
+  margin-bottom: 20px !important;
+}
+.cars-form-ui .button-vcode {
+  position: absolute;
+  z-index: 10;
+  top: 4px;
+  right: 4px;
+  height: 32px;
+  background-color: #34393f;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 12px;
+  color: #fff;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+.cars-form-ui .button-vcode[disabled] {
+  opacity: 0.5;
+}
+.select-black,
+.button-black {
+  display: block;
+  width: 100%;
+}
+/* upload */
+.avatar-uploader .el-upload {
+  border: 1px dashed #282d32;
+  border-radius: 6px;
+  cursor: pointer;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+.avatar-uploader .el-upload:hover {
+  border-color: #409eff;
+}
+.avatar-uploader-icon {
+  font-size: 28px;
+  color: #282d32;
+  width: 100%;
+  height: 150px;
+  line-height: 150px;
+  text-align: center;
+}
+.avatar {
+  width: 100%;
+  height: 150px;
+  display: block;
+}
+/* blank */
+.blank-40 {
+  height: 40px;
+}
+.blank-20 {
+  height: 20px;
+}
+.blank-100 {
+  height: 100px;
+}
+/* color */
+.color-main {
+  color: #34393f;
+}
+.color-white {
+  color: white;
+}
+.color-success,
+.color-OVER {
+  color: #10da06;
+}
+.color-fail {
+  color: #bd1b00;
+}
+.color-CANCEL {
+  color: #8c8c8c;
+}
+/* text-algin */
+.text-center {
+  text-align: center;
+}
+.text-left {
+  text-align: left;
+}
+.text-right {
+  text-align: right;
+}
+/* line-height */
+.lh-40 {
+  line-height: 40px;
+}
+/* float */
+.pull-right {
+  float: right;
+}
+.pull-left {
+  float: left;
+}
+/* font-size */
+.fs-24 {
+  font-size: 24px;
+}
+.fs-12 {
+  font-size: 12px;
+}
+.fs-18 {
+  font-size: 18px;
+}
+.fa-b {
+  font-family: "bahnschrift";
+}
+/* position */
+.p-r {
+  position: relative;
+}
+.p-a {
+  position: absolute;
+}
+/* margin */
+.mr-15 {
+  margin-right: 15px;
+}
+/* clearfix */
+.clearfix:after {
+  clear: both;
+  content: ".";
+  display: block;
+  height: 0;
+  line-height: 0;
+  overflow: hidden;
+}
+/* opacity */
+.opacity-4 {
+  opacity: 0.4;
+}
+/* flex */
+.flex-1 {
+  flex: 1;
+}
+/* common ui */
+.select-car-btn {
+  display: block;
+  width: 240px;
+  height: 84px;
+  margin: 0 17px;
+  border-radius: 100px;
+  line-height: 84px;
+  text-align: center;
+  color: #fff;
+  font-size: 26px;
+  font-weight: 300;
+  background-color: #34393f;
+}
+.user-container {
+  padding: 0 30px;
+  overflow-y: auto;
+  height: 100%;
+}
+/* user router-link */
+.group-links a {
+  position: relative;
+  display: block;
+  margin: 0 -30px;
+  padding: 0 30px;
+  height: 64px;
+  line-height: 64px;
+  color: rgba(255, 255, 255, 0.4);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.03);
+  font-size: 15px;
+}
+.group-links .icon {
+  width: 30px;
+  height: 30px;
+  margin: 0 16px -10px 0;
+}
+.group-links .arrow:after {
+  content: ".";
+  position: absolute;
+  right: 30px;
+  top: 50%;
+  width: 10px;
+  height: 10px;
+  margin-top: -7px;
+  border-top: 1px solid #fff;
+  border-right: 1px solid #fff;
+  box-sizing: border-box;
+  transform: rotate(45deg);
+  opacity: 0.1;
+}
+.button-block {
+  width: 100%;
+  display: block;
+  text-align: center;
+}
